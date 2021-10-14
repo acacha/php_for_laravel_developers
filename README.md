@@ -8,3 +8,6 @@ https://github.com/acacha/wiki/blob/main/PHP%20per%20a%20desenvolupadors%20Larav
 
 Creat per Sergi Tur Badenas
 
+# Tags
+
+- V0.1: Exemple Hello world de PHP i HTMl sense separation of concerns -> Sense MVC
