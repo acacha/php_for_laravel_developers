@@ -11,3 +11,4 @@ Creat per Sergi Tur Badenas
 # Tags
 
 - V0.1: Exemple Hello world de PHP i HTMl sense separation of concerns -> Sense MVC
+- V0.2: Versió Hello World amb MVC
