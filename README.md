@@ -12,3 +12,4 @@ Creat per Sergi Tur Badenas
 
 - V0.1: Exemple Hello world de PHP i HTMl sense separation of concerns -> Sense MVC
 - V0.2: Versió Hello World amb MVC
+- V0.3: Exemple amb funcions, paràmetres de la Query String _GET, evitar atacs XSS
