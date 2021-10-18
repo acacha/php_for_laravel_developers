@@ -13,3 +13,4 @@ Creat per Sergi Tur Badenas
 - V0.1: Exemple Hello world de PHP i HTMl sense separation of concerns -> Sense MVC
 - V0.2: Versió Hello World amb MVC
 - V0.3: Versió del codi al final del primer vídeo
+- V0.4: Separar la configuració (config.php) del codi -> implementat la 0 de SOLID -> Open To Extension closed to modification
