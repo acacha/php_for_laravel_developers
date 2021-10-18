@@ -1,6 +1,6 @@
 # php_for_laravel_developers
 
-Codi font dels screencasts: 
+Codi font dels screencast que podeu trobar al canal Youtube d'acacha_dev.
 
 - https://youtu.be/s1h0SIt0g3I
 
