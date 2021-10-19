@@ -1,0 +1,17 @@
+{
+    "name": "acacha/php_for_laravel_developers",
+    "description": "Bla bla",
+    "type": "project",
+    "autoload": {
+        "classmap": [
+            "./"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Sergi Tur Badenas",
+            "email": "sergiturbadenas@gmail.com"
+        }
+    ],
+    "require": {}
+}
