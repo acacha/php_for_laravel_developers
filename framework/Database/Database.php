@@ -2,36 +2,41 @@
 
 namespace Framework\Database;
 
-use App\Models\Task;
 use PDO;
 
 class Database
 {
-    public $config;
+    protected $pdo;
 
-
-    /**
-     * @param $config
-     * @param $connection
-     */
-    public function __construct($config)
+    public function __construct($pdo)
     {
-        $this->config = $config;
-        $this->connection = new Connection($config);
+        $this->pdo = $pdo;
     }
 
+    public function selectAll($table) {
 
-    function selectAll($table) {
-        $dbh = $this->connection->connectDB($this->config);
-        $statement = $dbh->prepare("SELECT * FROM $table;");
+        $statement = $this->pdo->prepare("SELECT * FROM $table;");
 
         $statement->execute();
 
-        return $statement->fetchAll(PDO::FETCH_CLASS, Task::class);
+        return $statement->fetchAll(PDO::FETCH_CLASS);
     }
 
 
-    function insert() {
-        // TODO
+    function insert($table, $parameters) {
+        $sql = sprintf(
+            'insert into %s (%s) values (%s)',
+            $table,
+            implode(', ', array_keys($parameters)),
+            ':' . implode(', :', array_keys($parameters))
+        );
+
+        try {
+            $statement = $this->pdo->prepare($sql);
+
+            $statement->execute($parameters);
+        } catch (\Exception $e) {
+            //
+        }
     }
 }
