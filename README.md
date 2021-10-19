@@ -16,3 +16,4 @@ Creat per Sergi Tur Badenas
 - V0.4: Separar la configuració (config.php) del codi -> implementat la 0 de SOLID -> Open To Extension closed to modification
 - V0.5: Refactorització POO, afegit composer.json i autoload. Namespaces
 - V0.6: Container -> Implementar D de SOLID Dependency Inversion Principle -> Inverter -> Inversor Container -> APP
+- v0.7: Fitxer .env -> Exemples ús de paquets PHP Composer de tercers. 
