@@ -13,6 +13,8 @@ Creat per Sergi Tur Badenas
 
 # Tags
 
+Els podeu trobar a: https://github.com/acacha/php_for_laravel_developers/tags
+
 - V0.1: Exemple Hello world de PHP i HTMl sense separation of concerns -> Sense MVC
 - V0.2: Versió Hello World amb MVC
 - V0.3: Versió del codi al final del primer vídeo
