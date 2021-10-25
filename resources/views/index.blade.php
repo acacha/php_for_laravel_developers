@@ -1,52 +1,96 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-        header {
-            background: beige;
-            padding: 2em;
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-<nav>
-    <ul>
-        <li><a href="/tasks">Tasques</a></li>
-        <li><a href="/users">Users</a></li>
-        <li><a href="/contact">Contact</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/index">Home</a></li>
-    </ul>
-</nav>
-<header>
+<?php require '../resources/views/layout/html_header.blade.php'; ?>
+<?php require '../resources/views/layout/nav.blade.php'; ?>
 
-    <h1><?=$greeting;?></h1>
+<div class="py-10">
+    <header>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-3xl font-bold leading-tight text-gray-900">
+                Tasks
+            </h1>
+        </div>
+    </header>
+    <main>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="mt-5 mb-5"><?=$greeting;?></h1>
 
-    <table>
-        <tr>
-           <th>Id</th>
-           <th>Title</th>
-           <th>Description</th>
-           <th>Completed</th>
-        </tr>
+            <div class="flex flex-col">
+                <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                    <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+                        <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+                            <table class="min-w-full divide-y divide-gray-200">
+                                <thead class="bg-gray-50">
+                                <tr>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Id
+                                    </th>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Title
+                                    </th>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Description
+                                    </th>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Completed
+                                    </th>
+                                    <th scope="col" class="relative px-6 py-3">
+                                        <span class="sr-only">Edit</span>
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <?php foreach ($tasks as $task): ?>
+                                <!-- Odd row -->
+                                <tr class="bg-white">
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                                        <?=$task->id;?>
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                        <?=$task->title;?>
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                        <?=$task->description;?>
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                        <?=$task->completed;?>
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                                        <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+                                    </td>
+                                </tr>
+                                <?php endforeach; ?>
 
-        <?php foreach ($tasks as $task): ?>
-            <tr>
-                <td><?=$task->id;?></td>
-                <td><?=$task->title;?></td>
-                <td><?=$task->description;?></td>
-                <td><?=$task->completed;?></td>
-            </tr>
-        <?php endforeach; ?>
 
-    </table>
-</header>
-</body>
-</html>
+
+                                <!-- Even row -->
+                                <!-- <tr class="bg-gray-50">
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                                        Cody Fisher
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                        Product Directives Officer
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                        cody.fisher@example.com
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                        Owner
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                                        <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+                                    </td>
+                                </tr> -->
+
+                                <!-- More people... -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<?php require '../resources/views/layout/footer.blade.php'; ?>
+
 

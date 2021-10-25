@@ -2,9 +2,9 @@
 
 use Framework\App;
 
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
-require 'framework/bootstrap.php';
+require '../framework/bootstrap.php';
 
 // URL
 // ROUTER -> API redirect quina URI m'ha demanat el usuari -> he d'obtenir el controlador que toca i executar-lo
