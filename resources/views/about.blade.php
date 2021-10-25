@@ -13,11 +13,15 @@
     </header>
     <main>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
-            <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consequuntur delectus eaque eius enim ex, hic illo praesentium quae quod saepe sunt tempora ullam. Dolorum id omnis rem sunt tempore!</p>
-            <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid commodi dignissimos dolorem ipsa maxime molestias quo recusandae unde. Ad autem doloribus mollitia nihil nostrum nulla optio similique sunt suscipit tenetur.</p>
-            <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus, deserunt laborum minima obcaecati porro sapiente veritatis vitae voluptates. A accusamus aspernatur dolor et molestias perferendis rerum sed tempora voluptates?</p>
-            <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda aut corporis deleniti
-                earum explicabo iure maxime molestias perferendis provident quas qui quia quibusdam quod quos sequi,
+            <ul>
+                <li>Aquest codi ha estat creat per Sergi Tur Badenas. Github: <a href="https://github.com/acacha" class="underline text-blue-400">https://github.com/acacha</a> </li>
+                <li>Codi font: <a href="https://github.com/acacha/php_for_laravel_developers" class="underline text-blue-400">https://github.com/acacha/php_for_laravel_developers</a></li>
+                <li>Llista de reproducció Youtube: <a href="https://tubeme.acacha.org/php" class="underline text-blue-400">https://tubeme.acacha.org/php</a></li>
+                <li>Notes: <a href="https://github.com/acacha/wiki/blob/main/PHP%20per%20a%20desenvolupadors%20Laravel.md" class="underline text-blue-400">https://github.com/acacha/wiki/blob/main/PHP%20per%20a%20desenvolupadors%20Laravel.md</a></li>
+                <li>URL aplicació en explotació: <a href="http://phpforlaravel.acacha.org/" class="underline text-blue-400">http://phpforlaravel.acacha.org/</a></li>
+            </ul>
+            
+            <p class="mt-10">Consulteu els screencasts del canal de Youtube acacha_dev per aprendre tots els passos des de zero per a crear aquesta web que esteu veient</p>
                 tempora vel voluptas.</p>
         </div>
     </main>
