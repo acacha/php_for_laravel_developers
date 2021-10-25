@@ -21,31 +21,11 @@
         <li><a href="/users">Users</a></li>
         <li><a href="/contact">Contact</a></li>
         <li><a href="/about">About</a></li>
-        <li><a href="/index">Home</a></li>
+        <li><a href="index">Home</a></li>
     </ul>
 </nav>
 <header>
-
-    <h1><?=$greeting;?></h1>
-
-    <table>
-        <tr>
-           <th>Id</th>
-           <th>Title</th>
-           <th>Description</th>
-           <th>Completed</th>
-        </tr>
-
-        <?php foreach ($tasks as $task): ?>
-            <tr>
-                <td><?=$task->id;?></td>
-                <td><?=$task->title;?></td>
-                <td><?=$task->description;?></td>
-                <td><?=$task->completed;?></td>
-            </tr>
-        <?php endforeach; ?>
-
-    </table>
+    TODO CONTACT HERE
 </header>
 </body>
 </html>
