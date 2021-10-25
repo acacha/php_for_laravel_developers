@@ -22,3 +22,4 @@ Els podeu trobar a: https://github.com/acacha/php_for_laravel_developers/tags
 - V0.5: Refactorització POO, afegit composer.json i autoload. Namespaces
 - V0.6: Container -> Implementar D de SOLID Dependency Inversion Principle -> Inverter -> Inversor Container -> APP
 - v0.7: Fitxer .env -> Exemples ús de paquets PHP Composer de tercers. 
+- v0.8: Refactorització helpers per utilitzar composer autoload
