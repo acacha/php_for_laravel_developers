@@ -2,7 +2,7 @@
 
 Codi font del screencast: 
 
-- Aprèn PHP per a Laravel: https://www.youtube.com/playlist?list=PLyasg1A0hpk2vR_ocOHavVJiybYoB05pR
+- Aprèn PHP per a Laravel: https://tubeme.acacha.org/php | [Link directe Youtube](https://www.youtube.com/playlist?list=PLyasg1A0hpk2vR_ocOHavVJiybYoB05pR)
 - Més vídeos al canal de Youtube acacha_dev -> https://youtube.acacha.org
 
 Podeu trobar més informació sobre aquest codi a:
