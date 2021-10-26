@@ -4,6 +4,12 @@ Podeu veure el resultat d'aquesta aplicació a:
 
 http://phpforlaravel.acacha.org/
 
+# Clone amb Laravel
+
+El trobareu a:
+
+https://github.com/acacha/php_for_laravel_developers_def
+
 # php_for_laravel_developers
 
 Codi font del screencast: 
