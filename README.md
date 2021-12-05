@@ -4,6 +4,15 @@ Podeu veure el resultat d'aquesta aplicació a:
 
 http://phpforlaravel.acacha.org/
 
+# Aplicacions dels alumnes
+
+- Tur Badenas, Sergi: http://phpforlaravel.acacha.org/
+
+
+# Codi font dels alumnes
+
+- Tur Badenas, Sergi: https://github.com/acacha/php_for_laravel_developers
+
 # Clone amb Laravel
 
 El trobareu a:
