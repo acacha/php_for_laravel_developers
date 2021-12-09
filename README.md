@@ -7,6 +7,7 @@ http://phpforlaravel.acacha.org/
 # Aplicacions dels alumnes
 
 - Audí Bielsa, Dani: daudi44: http://phpforlaravel.danielaudibielsa.codes
+- Goncear, Tudor: http://phplaraveldev.tudorgoncear.me/
 - Moreno, Jhon: Jhon1348: http://phpforlaravel.jhonmoreno.codes
 - Muñoz Zafra, Ferran | http://prova.ferranmunozzafra.me/
 - Pont Lopez, David: Palanka777: http://phpforlaravel.davidpont.me/
@@ -17,6 +18,7 @@ http://phpforlaravel.acacha.org/
 # Codi font dels alumnes
 
 - Audí Bielsa, Dani: daudi44: https://github.com/daudi44/php_for_laravel_developers_def
+- Goncear, Tudor: https://github.com/tgoncear/PHP_perADesenvopuladors_LARAVEL
 - Moreno, Jhon: Jhon1348: https://github.com/Jhon1348/php_for_laravel_developers
 - Muñoz Zafra, Ferran | https://github.com/Fmunozzafra/php_for_laravel_developers_def
 - Pont Lopez, David: Palanka777: https://github.com/Desenv-Aplicacions-Multiplataforma/php_for_laravel_developers_DavidPont.git
