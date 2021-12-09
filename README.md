@@ -13,6 +13,7 @@ http://phpforlaravel.acacha.org/
 - Rius Rivas, Alba | AlbaRiius: http://phpforlaraveldef.albarius.codes
 - Tomas Altadill, Axel: AxelTomas99: http://phpforlaravel.axeltomas.codes
 - Tur Badenas, Sergi: http://phpforlaravel.acacha.org/
+- Brusca Manchón, Albert: http://phpforlaravel.albertbrusca.me/
 
 # Codi font dels alumnes
 
@@ -23,6 +24,7 @@ http://phpforlaravel.acacha.org/
 - Rius Rivas, Alba: https://github.com/AlbaRiius/Php_for_laravel_developers_def
 - Tomas Altadill, Axel: AxelTomas99: https://github.com/AxelTomas99/php_for_laravel_developers
 - Tur Badenas, Sergi: https://github.com/acacha/php_for_laravel_developers
+- Brusca Manchón, Albert: https://github.com/Albert-Brusca/php_for_laravel_developers
 
 
 # Clone amb Laravel
