@@ -9,7 +9,7 @@ http://phpforlaravel.acacha.org/
 - Tur Badenas, Sergi: http://phpforlaravel.acacha.org/
 - Pont Lopez, David: Palanka777: http://phpforlaravel.davidpont.me/
 - Audí Bielsa, Dani: daudi44: http://phpforlaravel.danielaudibielsa.codes
-- Muñoz Zafra, Ferran | http://prova.ferranmunozzafra.me/
+- Muñoz Zafra, Ferran | http://phpforlaraveldef.ferran.org/
 - Rius Rivas, Alba | AlbaRiius: phpforlaraveldef.albarius.codes
 - Moreno, Jhon: Jhon1348: http://phpforlaravel.jhonmoreno.codes
 
