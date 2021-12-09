@@ -10,6 +10,7 @@ http://phpforlaravel.acacha.org/
 - Pont Lopez, David: Palanka777: http://phpforlaravel.davidpont.me/
 - Audí Bielsa, Dani: daudi44: http://phpforlaravel.danielaudibielsa.codes
 - Tomas Altadill, Axel: AxelTomas99: http://phpforlaravel.axeltomas.codes
+- Moreno, Jhon: Jhon1348: http://phpforlaravel.jhonmoreno.codes
 
 # Codi font dels alumnes
 
@@ -17,7 +18,7 @@ http://phpforlaravel.acacha.org/
 - Pont Lopez, David: Palanka777: https://github.com/Desenv-Aplicacions-Multiplataforma/php_for_laravel_developers_DavidPont.git
 - Audí Bielsa, Dani: daudi44: https://github.com/daudi44/php_for_laravel_developers_def
 - Tomas Altadill, Axel: AxelTomas99: https://github.com/AxelTomas99/php_for_laravel_developers
-
+- Moreno, Jhon: Jhon1348: https://github.com/Jhon1348/php_for_laravel_developers
 
 
 # Clone amb Laravel
