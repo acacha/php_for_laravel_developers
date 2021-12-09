@@ -22,6 +22,7 @@ http://phpforlaravel.acacha.org/
 - Pont Lopez, David: Palanka777: https://github.com/Desenv-Aplicacions-Multiplataforma/php_for_laravel_developers_DavidPont.git
 - Rius Rivas, Alba: https://github.com/AlbaRiius/Php_for_laravel_developers_def
 - Tomas Altadill, Axel: AxelTomas99: https://github.com/AxelTomas99/php_for_laravel_developers
+- Gabriel Urs | l3lackJack | https://github.com/l3lackJack/PHP_FOR_LARAVEL_DEVELOPERS
 - Tur Badenas, Sergi: https://github.com/acacha/php_for_laravel_developers
 
 
