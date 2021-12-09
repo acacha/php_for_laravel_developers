@@ -10,7 +10,7 @@ http://phpforlaravel.acacha.org/
 - Moreno, Jhon: Jhon1348: http://phpforlaravel.jhonmoreno.codes
 - Muñoz Zafra, Ferran | http://prova.ferranmunozzafra.me/
 - Pont Lopez, David: Palanka777: http://phpforlaravel.davidpont.me/
-- Rius Rivas, Alba | AlbaRiius: phpforlaraveldef.albarius.codes
+- Rius Rivas, Alba | AlbaRiius: http://phpforlaraveldef.albarius.codes
 - Tomas Altadill, Axel: AxelTomas99: http://phpforlaravel.axeltomas.codes
 - Tur Badenas, Sergi: http://phpforlaravel.acacha.org/
 
